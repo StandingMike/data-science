@@ -6,7 +6,7 @@ My name is Michael Willis but you can call me Mike. I have an undergraduate degr
 # Projects
 
 1. Machine Learning
-  - Classification: Predicting Patient Length of Stay
+    - Classification: Predicting Patient Length of Stay
   - Classification: Spam vs Ham Emails
 2. Smaller Machine Learning Projects
   - Movie Recommender
