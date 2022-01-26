@@ -6,10 +6,10 @@ My name is Michael Willis but you can call me Mike. I have an undergraduate degr
 # Projects
 
 1. Machine Learning
-    - Classification: Predicting Patient Length of Stay
-    - Classification: Spam vs Ham Emails
-    - Movie Recommender
-    - Basic Snapchat Filter
+    - [Classification: Predicting Patient Length of Stay](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Predicting%20Patient%20Length%20of%20Stay)
+    - [Classification: Spam vs Ham Emails](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Spam%20vs%20Ham%20Emails)
+    - [Movie Recommender](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Movie%20Recommender)
+    - [Basic Snapchat Filter](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Snapchat%20Filter)
     - [COVID Data Exploration](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/COVID%20Data%20Exploration)
 2. Other Projects (Work-in-progress)
     - Tableau Visualisations
