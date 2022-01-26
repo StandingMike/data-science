@@ -5,7 +5,7 @@ My name is Michael Willis but you can call me Mike. I have an undergraduate degr
 
 # Projects
 
-1. Machine Learning
+1. [Machine Learning](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning)
     - [Classification: Predicting Patient Length of Stay](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Predicting%20Patient%20Length%20of%20Stay)
     - [Classification: Spam vs Ham Emails](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Spam%20vs%20Ham%20Emails)
     - [Movie Recommender](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Movie%20Recommender)
