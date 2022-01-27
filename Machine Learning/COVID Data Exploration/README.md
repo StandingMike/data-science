@@ -1,7 +1,7 @@
-## COVID 19 Exploratory Data Analysis
-### Overview
+# COVID 19 Exploratory Data Analysis
+## Overview
 This is an EDA of COVID 19 using pandas, matplotlib and plotly. Some code snippets can be seen below.
-### Files
+## Files
 Jupyter notebook
 
-### Code Snippets
+## Code Snippets
