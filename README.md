@@ -11,9 +11,8 @@ My name is Michael Willis but you can call me Mike. I have an undergraduate degr
     - [Movie Recommender](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Movie%20Recommender)
     - [Basic Snapchat Filter](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/Snapchat%20Filter)
     - [COVID Data Exploration](https://github.com/StandingMike/data-science/tree/main/Machine%20Learning/COVID%20Data%20Exploration)
-2. Other Projects (Work-in-progress)
+2. Other Projects
     - Tableau Visualisations
-    - Design Thinking Prototype
 
 # Contact Me
 
