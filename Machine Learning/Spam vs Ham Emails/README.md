@@ -1,8 +1,10 @@
-# Introduction
-A common problem everybody faces in the digital age: spam. Spam emails, spam texts, even spam phone calls! While a majority of workers who use email for communications don’t receive spam, for some, filtering out spam can cost up to 30-60 minutes over the course of a work day (Fallows, 2003). Through the use of machine learning and deep learning models, data scientists are able to use classifier models to detect which emails are spam and which are not, which in turn will save workers time and increase productivity. This report’s focus is on: Which models, machine learning or deep learning, and which classifiers are the most effective at classifying spam correctly?
-# Dataset
-The dataset we chose is: [Enron Spam dataset](http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html). This is a real-life dataset consistent of both sent and received emails. It was put together by former employees of Enron, who went through and labelled their work emails as “Ham” or “Spam.” The dataset contains 33665 emails in total. Below we will discuss how the data was picked, cleaned, preprocessed, and how features were selected.
-# Preprocessing
+# Spam Email Classifier
+
+## Project Goal
+This is an overview of the project, more in-depth details including code and the final report can be found in this repo. To use traditional machine learning algorithms to correctly identify Spam or Ham emails based on both Subject and Messages of emails. A basic artificial neural network (ANN) was also built to compare to traditional ML algorithms.
+## Dataset
+The dataset is: [Enron Spam dataset](http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html). This is a real-life dataset consistent of both sent and received emails. It was put together by former employees of Enron, who went through and labelled their work emails as “Ham” or “Spam.” The dataset contains 33665 emails in total.
+## Approach
 1)	Label Encoding
     - The first step was to label encode the ‘Spam/Ham’ column with ‘Spam’ values mapped to 0 and ‘Ham’ mapped to 1, followed by renaming the column to ‘label’.
 2)	Cleaning
@@ -27,5 +29,5 @@ The dataset we chose is: [Enron Spam dataset](http://nlp.cs.aueb.gr/software_and
     - Primarily, each text was sentence tokenized.
     -	Then, we realized that lemmatizer output accuracy is improved when, along with the word, its pos-tag is also passed as an additional parameter.
     -	Hence, each sentence was then word tokenized and in turn each word was pos-tagged (part-of-speech).
-# Results
-We ran all the conventional machine learning models with 100% of the data using a 66/33 train test split. After tuning, SVM was the best model for ‘Subject’ while the artificial neural network was the best for ‘Messages’ scoring 93.8% and 98.3% respectively. Due to our computer configurations, we weren’t able to run the neural network (NN) model at 100%, instead maxing out at 60% of the dataset. For this reason, after finding that SVM was the best conventional machine learning model we ran it again with 60% of the data, maintaining the same train test split, so it could be accurately compared to the NN model.
+## Conclusion
+All traditional machine learning models were run with 100% of the data using a 66/33 train-test split. After tuning, SVM was the best model for ‘Subject’ while the artificial neural network was the best for ‘Messages’ scoring 93.8% and 98.3% respectively. Due to RAM limitations, the neural network (NN) model was run at 60% of the total data with the same 66/33 train-test split being applied on that 60% of the total dataset. For this reason, after finding that SVM was the best traditional machine learning model it was run again with 60% of the data for true comparison purposes.
