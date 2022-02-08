@@ -1,7 +1,7 @@
 # Predicting Patient Length of Stay in Hospital
 
 ## Project Goal
-The goal of this project was to take admission data from several hospitals and, using traditional machine learning algorithms, try to predict how long patients would remain in hospital. This woul greatly assist with Healthcare Management and planning.
+This is an overview of the project and an in-depth report can be found in this repository. The goal of this project was to take admission data from several hospitals and, using traditional machine learning algorithms, try to predict how long patients would remain in hospital. This would greatly assist with Healthcare Management and planning.
 
 ## Dataset
 The dataset can be found in this repository. It contains ~300,000 samples with 17 features plus the target. The target contained 11 classes which were a range of days that patients would remain in hospital.
