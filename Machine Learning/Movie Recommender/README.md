@@ -28,6 +28,11 @@ Function created to allow for Top 15 movies to be shown based on either Content 
 
 ![movie_recommender_function](https://user-images.githubusercontent.com/83191235/154210681-4bb5a2eb-9a0e-42df-8cde-093fdf04b8fc.PNG)
 
+## Matrix Factorization Recommender
+This is another way to accomplish collaborative filtering by finding the relationship between items and users entities.
+
+![matrix_factor_recommender](https://user-images.githubusercontent.com/83191235/154213785-5814ef0d-8f22-4419-9471-fd2fb8ee66af.PNG)
+
 ## Surprise - Another Way
 The surprise library was used to call the Single Value Decomposition algorithm to train and create an algorithm that would give movie recommendations based on the individual user.
 
