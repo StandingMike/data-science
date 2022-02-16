@@ -4,7 +4,7 @@
 This is an overview of the project and an in-depth report can be found in this repository. The goal of this project was to take admission data from several hospitals and, using traditional machine learning algorithms, try to predict how long patients would remain in hospital. This would greatly assist with Healthcare Management and planning.
 
 ## Dataset
-The dataset can be found in this repository. It contains ~300,000 samples with 17 features plus the target. The target contained 11 classes which were a range of days that patients would remain in hospital.
+The dataset is called patient_stay.csv and can be found in this repository. It contains ~300,000 samples with 17 features plus the target. The target contained 11 classes which were a range of days that patients would remain in hospital.
 
 ## Approach
 1) We began by exploring the featuures included in the dataset. A more in-depth look of these features can be found in the report pdf.
