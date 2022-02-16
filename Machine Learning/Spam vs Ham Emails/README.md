@@ -3,7 +3,7 @@
 ## Project Goal
 This is an overview of the project, more in-depth details including code and the final report can be found in this repo. To use traditional machine learning algorithms to correctly identify Spam or Ham emails based on both Subject and Messages of emails. A basic artificial neural network (ANN) was also built to compare to traditional ML algorithms.
 ## Dataset
-The dataset is: [Enron Spam dataset](http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html). This is a real-life dataset consistent of both sent and received emails. It was put together by former employees of Enron, who went through and labelled their work emails as “Ham” or “Spam.” The dataset contains 33665 emails in total.
+The dataset is: [Enron Spam dataset](http://nlp.cs.aueb.gr/software_and_datasets/Enron-Spam/index.html). This processed dataset can be found as enron_spam_ham_email_processed_v2.csv in the repository. This is a real-life dataset consistent of both sent and received emails. It was put together by former employees of Enron, who went through and labelled their work emails as “Ham” or “Spam.” The dataset contains 33665 emails in total.
 ## Approach
 1)	Label Encoding
     - The first step was to label encode the ‘Spam/Ham’ column with ‘Spam’ values mapped to 0 and ‘Ham’ mapped to 1, followed by renaming the column to ‘label’.
